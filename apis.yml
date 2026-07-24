@@ -1,8 +1,14 @@
 aid: cerebral
 name: Cerebral
-description: 'Cerebral is a company surfaced as a portfolio company of softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Cerebral is an American telehealth company providing online mental health
+  and wellness care, including therapy, counseling, psychiatric evaluations, and medication
+  management delivered through its website and mobile app on a subscription basis. Founded
+  in 2020 by Kyle Robertson and Ho Anh, the company treats conditions such as depression,
+  anxiety, insomnia, ADHD, and substance use disorder. Cerebral is backed by SoftBank
+  Vision Fund 2, which led a $300M Series C in December 2021 valuing the company at
+  roughly $4.8B. Cerebral is a direct-to-consumer product and does not publish a public
+  developer API or programmatic surface; this API Evangelist profile tracks its public
+  company and website properties.'
 url: https://raw.githubusercontent.com/api-evangelist/cerebral/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +16,54 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cerebral.com/favicon.ico
 tags:
 - Company
 - Consumer
+- Health
+- Mental Health
+- Telehealth
+- Healthcare
+- Wellness
+common:
+- url: https://cerebral.com
+  type: Website
+- url: https://cerebral.com/plans
+  type: Pricing
+- url: https://cerebral.com/terms-and-conditions
+  type: TermsOfService
+- url: https://cerebral.com/privacy-policy
+  type: PrivacyPolicy
+- url: https://cerebral.com/faqs
+  type: Support
+- url: https://cerebral.com/blog
+  type: Blog
+- url: https://cerebral.com/careers
+  type: Careers
+- url: security/cerebral-domain-security.yml
+  type: DomainSecurity
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
